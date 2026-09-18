@@ -1,0 +1,846 @@
+# Copyright (C) 2026 
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Promo Engine 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/promo-engine\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-18T18:56:21+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: promo-engine\n"
+
+#. Plugin Name of the plugin
+#: promo-engine.php
+msgid "Promo Engine"
+msgstr ""
+
+#. Description of the plugin
+#: promo-engine.php
+msgid "Rule-based promotions for WooCommerce: item discounts, buy X get Y, bundles, cart thresholds and promotion analytics."
+msgstr ""
+
+#: includes/admin/class-admin.php:79
+#: includes/admin/class-admin.php:80
+#: includes/admin/class-admin.php:88
+#: views/admin/promotions-list.php:25
+msgid "Promotions"
+msgstr ""
+
+#: includes/admin/class-admin.php:88
+#: views/admin/analytics-detail.php:42
+msgid "All promotions"
+msgstr ""
+
+#: includes/admin/class-admin.php:89
+#: views/admin/analytics-detail.php:41
+#: views/admin/promotion-form.php:58
+msgid "Edit promotion"
+msgstr ""
+
+#: includes/admin/class-admin.php:89
+#: views/admin/promotion-form.php:61
+#: views/admin/promotions-list.php:26
+msgid "Add new"
+msgstr ""
+
+#: includes/admin/class-admin.php:91
+#: views/admin/analytics-overview.php:24
+msgid "Promotion analytics"
+msgstr ""
+
+#: includes/admin/class-admin.php:91
+#: includes/admin/class-promotions-table.php:174
+#: views/admin/promotion-form.php:62
+msgid "Analytics"
+msgstr ""
+
+#: includes/admin/class-admin.php:92
+#: views/admin/settings.php:16
+msgid "Promotion settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:92
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:255
+msgid "Promotion saved."
+msgstr ""
+
+#: includes/admin/class-admin.php:256
+msgid "Promotions updated."
+msgstr ""
+
+#: includes/admin/class-admin.php:257
+msgid "Promotions deleted."
+msgstr ""
+
+#: includes/admin/class-admin.php:258
+msgid "Demo promotions loaded."
+msgstr ""
+
+#: includes/admin/class-admin.php:259
+msgid "Choose three categories to load the demo promotions."
+msgstr ""
+
+#: includes/admin/class-admin.php:288
+msgid "You are not allowed to manage promotions."
+msgstr ""
+
+#: includes/admin/class-analytics-page.php:54
+#: views/admin/analytics-ab.php:23
+#: views/admin/analytics-detail.php:20
+#: views/admin/analytics-overview.php:32
+msgid "Impressions"
+msgstr ""
+
+#: includes/admin/class-analytics-page.php:55
+#: views/admin/analytics-ab.php:24
+#: views/admin/analytics-detail.php:21
+#: views/admin/analytics-overview.php:33
+msgid "Clicks"
+msgstr ""
+
+#: includes/admin/class-analytics-page.php:56
+#: views/admin/analytics-ab.php:26
+#: views/admin/analytics-detail.php:23
+#: views/admin/analytics-overview.php:35
+msgid "Add to cart"
+msgstr ""
+
+#: includes/admin/class-analytics-page.php:57
+#: views/admin/analytics-ab.php:27
+#: views/admin/analytics-detail.php:24
+#: views/admin/analytics-overview.php:36
+msgid "Orders"
+msgstr ""
+
+#: includes/admin/class-analytics-page.php:58
+#: views/admin/analytics-ab.php:29
+#: views/admin/analytics-detail.php:26
+#: views/admin/analytics-detail.php:68
+#: views/admin/analytics-detail.php:80
+#: views/admin/analytics-overview.php:38
+msgid "Revenue"
+msgstr ""
+
+#: includes/admin/class-analytics-page.php:76
+#: includes/admin/class-promotion-form.php:51
+msgid "Promotion not found."
+msgstr ""
+
+#: includes/admin/class-promotion-form.php:155
+msgid "Name is required."
+msgstr ""
+
+#: includes/admin/class-promotion-form.php:159
+msgid "Discount value must be greater than zero."
+msgstr ""
+
+#: includes/admin/class-promotion-form.php:163
+msgid "Percentage discount cannot exceed 100%."
+msgstr ""
+
+#: includes/admin/class-promotion-form.php:167
+msgid "Bundle price must be greater than zero."
+msgstr ""
+
+#: includes/admin/class-promotion-form.php:171
+msgid "Add at least one cart threshold."
+msgstr ""
+
+#: includes/admin/class-promotion-form.php:175
+msgid "Select at least one product, category or tag."
+msgstr ""
+
+#: includes/admin/class-promotion-form.php:179
+msgid "End date must be after the start date."
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:78
+#: views/admin/promotion-form.php:82
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:79
+#: views/admin/promotion-form.php:104
+msgid "Discount"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:80
+#: views/admin/promotion-form.php:183
+msgid "Applies to"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:81
+msgid "Schedule"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:82
+#: views/admin/promotion-form.php:96
+msgid "Priority"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:83
+msgid "Combines"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:84
+msgid "Used"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:85
+#: views/admin/promotion-form.php:86
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:110
+#: includes/admin/class-promotions-table.php:169
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:111
+#: includes/admin/class-promotions-table.php:169
+msgid "Pause"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:112
+#: includes/admin/class-promotions-table.php:180
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:124
+msgid "All"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:160
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:179
+msgid "Delete this promotion?"
+msgstr ""
+
+#. translators: %d: number of products.
+#: includes/admin/class-promotions-table.php:220
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-promotions-table.php:244
+msgid "Always"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:251
+msgid "Now"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:252
+msgid "No end date"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:271
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:271
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:292
+#: includes/promotion/class-labels.php:54
+msgid "Paused"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:294
+msgid "Running"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:296
+msgid "Scheduled"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:298
+msgid "Limit reached"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:300
+msgid "Ended"
+msgstr ""
+
+#: includes/admin/class-promotions-table.php:310
+msgid "No promotions yet. Create one or load the demo set below."
+msgstr ""
+
+#: includes/cart/class-order-recorder.php:150
+msgid "You saved:"
+msgstr ""
+
+#: includes/demo/class-seeder.php:70
+msgid "Category 1 -20%"
+msgstr ""
+
+#: includes/demo/class-seeder.php:79
+msgid "Flash -30%"
+msgstr ""
+
+#: includes/demo/class-seeder.php:91
+msgid "Flash sale"
+msgstr ""
+
+#: includes/demo/class-seeder.php:92
+msgid "30% off selected styles. Limited time only."
+msgstr ""
+
+#: includes/demo/class-seeder.php:93
+msgid "Shop the sale"
+msgstr ""
+
+#: includes/demo/class-seeder.php:96
+msgid "30% off. Today only"
+msgstr ""
+
+#: includes/demo/class-seeder.php:97
+msgid "Your size may not last. Grab it before the timer runs out."
+msgstr ""
+
+#: includes/demo/class-seeder.php:98
+msgid "Get 30% off"
+msgstr ""
+
+#: includes/demo/class-seeder.php:104
+msgid "Buy 2 get 1"
+msgstr ""
+
+#. translators: %s: bundle price.
+#: includes/demo/class-seeder.php:118
+#, php-format
+msgid "Bundle: 2 for %s"
+msgstr ""
+
+#: includes/demo/class-seeder.php:130
+#: includes/promotion/class-labels.php:28
+msgid "Cart discount by subtotal"
+msgstr ""
+
+#: includes/front/class-deals-page.php:148
+#: templates/deals.php:18
+msgid "Deals"
+msgstr ""
+
+#: includes/front/class-popup.php:56
+#: views/admin/promotion-form.php:282
+msgid "Shop the deal"
+msgstr ""
+
+#: includes/promotion/class-labels.php:24
+msgid "Percentage discount"
+msgstr ""
+
+#: includes/promotion/class-labels.php:25
+msgid "Fixed amount discount"
+msgstr ""
+
+#: includes/promotion/class-labels.php:26
+msgid "Buy X get Y"
+msgstr ""
+
+#: includes/promotion/class-labels.php:27
+msgid "Bundle for a fixed price"
+msgstr ""
+
+#: includes/promotion/class-labels.php:39
+msgid "Selected products"
+msgstr ""
+
+#: includes/promotion/class-labels.php:40
+msgid "Product categories"
+msgstr ""
+
+#: includes/promotion/class-labels.php:41
+msgid "Product tags"
+msgstr ""
+
+#: includes/promotion/class-labels.php:42
+msgid "Entire catalog"
+msgstr ""
+
+#: includes/promotion/class-labels.php:53
+msgid "Active"
+msgstr ""
+
+#. translators: 1: units to buy, 2: free units.
+#: includes/promotion/class-labels.php:74
+#, php-format
+msgid "Buy %1$d get %2$d free"
+msgstr ""
+
+#. translators: 1: units to buy, 2: discounted units, 3: discount percent.
+#: includes/promotion/class-labels.php:76
+#, php-format
+msgid "Buy %1$d get %2$d at &minus;%3$s%%"
+msgstr ""
+
+#. translators: 1: units in bundle, 2: bundle price.
+#: includes/promotion/class-labels.php:80
+#, php-format
+msgid "%1$d for %2$s"
+msgstr ""
+
+#. translators: %s: maximum discount percent.
+#: includes/promotion/class-labels.php:87
+#, php-format
+msgid "Up to &minus;%s%% on your order"
+msgstr ""
+
+#: templates/cart/mini-cart-summary.php:24
+#: templates/checkout/savings-multibrand.php:19
+#: templates/savings-row.php:18
+#: templates/savings-row.php:19
+msgid "You save"
+msgstr ""
+
+#. translators: 1: amount left to spend, 2: discount percent.
+#: templates/cart/mini-cart-summary.php:36
+#, php-format
+msgid "Add %1$s more to get %2$s"
+msgstr ""
+
+#: templates/cart/mini-cart-summary.php:46
+msgid "Progress to the next discount"
+msgstr ""
+
+#: templates/deals-empty.php:14
+msgid "There are no active deals right now. Check back soon."
+msgstr ""
+
+#: templates/deals-empty.php:15
+msgid "Continue shopping"
+msgstr ""
+
+#: templates/deals-section.php:31
+#: templates/popup.php:49
+msgid "Ends in"
+msgstr ""
+
+#. translators: %s: cart subtotal threshold.
+#: templates/deals-section.php:46
+#, php-format
+msgid "Spend %s"
+msgstr ""
+
+#: templates/deals.php:19
+msgid "Current offers. Discounts are applied automatically in your cart."
+msgstr ""
+
+#: templates/popup.php:37
+msgid "Close"
+msgstr ""
+
+#: views/admin/analytics-ab.php:18
+msgid "CTR (clicks / impressions)"
+msgstr ""
+
+#: views/admin/analytics-ab.php:19
+msgid "Conversion (orders / add to cart)"
+msgstr ""
+
+#: views/admin/analytics-ab.php:25
+#: views/admin/analytics-detail.php:22
+#: views/admin/analytics-overview.php:34
+msgid "CTR"
+msgstr ""
+
+#: views/admin/analytics-ab.php:28
+#: views/admin/analytics-detail.php:25
+#: views/admin/analytics-overview.php:37
+msgid "Conversion"
+msgstr ""
+
+#: views/admin/analytics-ab.php:42
+msgid "Popup A/B test"
+msgstr ""
+
+#: views/admin/analytics-ab.php:47
+msgid "Variant"
+msgstr ""
+
+#. translators: %d: minimum number of trials per variant.
+#: views/admin/analytics-ab.php:74
+#, php-format
+msgid "not enough data yet (at least %d per variant needed)."
+msgstr ""
+
+#. translators: 1: relative change of B vs A, 2: z-score.
+#: views/admin/analytics-ab.php:86
+#, php-format
+msgid "B vs A %1$s, z = %2$s"
+msgstr ""
+
+#: views/admin/analytics-ab.php:93
+msgid "significant at 95%"
+msgstr ""
+
+#: views/admin/analytics-ab.php:94
+msgid "not significant yet"
+msgstr ""
+
+#: views/admin/analytics-ab.php:101
+msgid "Two-proportion z-test. Visitors are split 50/50 and keep their variant for 30 days; add to cart and orders are attributed through the same assignment."
+msgstr ""
+
+#: views/admin/analytics-detail.php:27
+#: views/admin/analytics-detail.php:81
+#: views/admin/analytics-overview.php:39
+msgid "Discount given"
+msgstr ""
+
+#: views/admin/analytics-detail.php:63
+msgid "Activity"
+msgstr ""
+
+#: views/admin/analytics-detail.php:64
+msgid "Daily impressions, clicks, add to cart events and orders"
+msgstr ""
+
+#: views/admin/analytics-detail.php:69
+msgid "Daily revenue"
+msgstr ""
+
+#: views/admin/analytics-detail.php:73
+msgid "Top products"
+msgstr ""
+
+#: views/admin/analytics-detail.php:77
+msgid "Product"
+msgstr ""
+
+#: views/admin/analytics-detail.php:78
+msgid "Added to cart"
+msgstr ""
+
+#: views/admin/analytics-detail.php:79
+msgid "Units sold"
+msgstr ""
+
+#: views/admin/analytics-detail.php:86
+msgid "No data for this period."
+msgstr ""
+
+#. translators: %d: product ID.
+#: views/admin/analytics-detail.php:98
+#, php-format
+msgid "Deleted product #%d"
+msgstr ""
+
+#: views/admin/analytics-filters.php:21
+msgid "From"
+msgstr ""
+
+#: views/admin/analytics-filters.php:22
+msgid "To"
+msgstr ""
+
+#: views/admin/analytics-filters.php:23
+msgid "Apply"
+msgstr ""
+
+#: views/admin/analytics-overview.php:31
+msgid "Promotion"
+msgstr ""
+
+#: views/admin/analytics-overview.php:44
+msgid "No promotions yet."
+msgstr ""
+
+#: views/admin/analytics-overview.php:72
+msgid "CTR = popup clicks / popup impressions. Conversion = orders / add to cart events under the promotion. Revenue is the order line total after all discounts."
+msgstr ""
+
+#: views/admin/promotion-form.php:58
+msgid "Add promotion"
+msgstr ""
+
+#: views/admin/promotion-form.php:79
+msgid "General"
+msgstr ""
+
+#: views/admin/promotion-form.php:99
+msgid "Higher wins when promotions compete. On a tie the older promotion (lower ID) wins."
+msgstr ""
+
+#: views/admin/promotion-form.php:107
+msgid "Type"
+msgstr ""
+
+#: views/admin/promotion-form.php:117
+msgid "Value"
+msgstr ""
+
+#: views/admin/promotion-form.php:120
+msgid "Percent or amount in store currency, depending on type."
+msgstr ""
+
+#: views/admin/promotion-form.php:124
+msgid "Deal"
+msgstr ""
+
+#: views/admin/promotion-form.php:126
+msgid "Buy"
+msgstr ""
+
+#: views/admin/promotion-form.php:127
+msgid "get"
+msgstr ""
+
+#: views/admin/promotion-form.php:128
+msgid "at discount, %"
+msgstr ""
+
+#: views/admin/promotion-form.php:129
+msgid "The cheapest items in each group get the discount. 100% = free."
+msgstr ""
+
+#: views/admin/promotion-form.php:133
+msgid "Bundle"
+msgstr ""
+
+#: views/admin/promotion-form.php:135
+msgid "items for"
+msgstr ""
+
+#: views/admin/promotion-form.php:140
+msgid "Thresholds"
+msgstr ""
+
+#: views/admin/promotion-form.php:145
+#: views/admin/promotion-form.php:153
+#: views/admin/promotion-form.php:315
+msgid "Subtotal from"
+msgstr ""
+
+#: views/admin/promotion-form.php:146
+#: views/admin/promotion-form.php:154
+#: views/admin/promotion-form.php:316
+msgid "Discount, %"
+msgstr ""
+
+#: views/admin/promotion-form.php:147
+msgid "Actions"
+msgstr ""
+
+#: views/admin/promotion-form.php:155
+#: views/admin/promotion-form.php:317
+msgid "Remove"
+msgstr ""
+
+#: views/admin/promotion-form.php:160
+msgid "Add threshold"
+msgstr ""
+
+#: views/admin/promotion-form.php:161
+msgid "Only the highest reached threshold applies."
+msgstr ""
+
+#: views/admin/promotion-form.php:165
+msgid "Maximum discount, %"
+msgstr ""
+
+#: views/admin/promotion-form.php:168
+msgid "Leave empty for no cap."
+msgstr ""
+
+#: views/admin/promotion-form.php:172
+msgid "Combination"
+msgstr ""
+
+#: views/admin/promotion-form.php:176
+msgid "Combines with other promotions"
+msgstr ""
+
+#: views/admin/promotion-form.php:178
+msgid "If one of the promotions on an item does not combine, only the highest priority one applies."
+msgstr ""
+
+#: views/admin/promotion-form.php:186
+msgid "Scope"
+msgstr ""
+
+#: views/admin/promotion-form.php:196
+msgid "Products"
+msgstr ""
+
+#: views/admin/promotion-form.php:198
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: views/admin/promotion-form.php:209
+msgid "Categories"
+msgstr ""
+
+#: views/admin/promotion-form.php:211
+msgid "Choose categories&hellip;"
+msgstr ""
+
+#: views/admin/promotion-form.php:214
+msgid "Subcategories are included."
+msgstr ""
+
+#: views/admin/promotion-form.php:218
+msgid "Tags"
+msgstr ""
+
+#: views/admin/promotion-form.php:220
+msgid "Choose tags&hellip;"
+msgstr ""
+
+#: views/admin/promotion-form.php:227
+msgid "Schedule & limits"
+msgstr ""
+
+#: views/admin/promotion-form.php:230
+msgid "Starts"
+msgstr ""
+
+#: views/admin/promotion-form.php:234
+msgid "Ends"
+msgstr ""
+
+#. translators: %s: timezone name.
+#: views/admin/promotion-form.php:240
+#, php-format
+msgid "Site timezone: %s. Leave empty for no limit."
+msgstr ""
+
+#: views/admin/promotion-form.php:246
+msgid "Usage limit"
+msgstr ""
+
+#. translators: %d: number of orders that used the promotion.
+#: views/admin/promotion-form.php:252
+#, php-format
+msgid "Number of paid orders. 0 means unlimited. Used so far: %d."
+msgstr ""
+
+#: views/admin/promotion-form.php:259
+msgid "Popup"
+msgstr ""
+
+#: views/admin/promotion-form.php:262
+msgid "Show popup"
+msgstr ""
+
+#: views/admin/promotion-form.php:266
+msgid "Announce this promotion in a popup (once per session, never on checkout)"
+msgstr ""
+
+#: views/admin/promotion-form.php:268
+msgid "Shows a countdown when the promotion has an end date."
+msgstr ""
+
+#: views/admin/promotion-form.php:272
+msgid "Title"
+msgstr ""
+
+#: views/admin/promotion-form.php:276
+msgid "Text"
+msgstr ""
+
+#: views/admin/promotion-form.php:280
+msgid "Button"
+msgstr ""
+
+#: views/admin/promotion-form.php:282
+msgid "Button label"
+msgstr ""
+
+#: views/admin/promotion-form.php:283
+msgid "Button link"
+msgstr ""
+
+#: views/admin/promotion-form.php:287
+msgid "A/B test"
+msgstr ""
+
+#: views/admin/promotion-form.php:291
+msgid "Show variant B to half of the visitors"
+msgstr ""
+
+#: views/admin/promotion-form.php:293
+msgid "The copy above is variant A. Results are in Analytics."
+msgstr ""
+
+#: views/admin/promotion-form.php:297
+msgid "Variant B title"
+msgstr ""
+
+#: views/admin/promotion-form.php:298
+#: views/admin/promotion-form.php:302
+#: views/admin/promotion-form.php:306
+msgid "Same as variant A"
+msgstr ""
+
+#: views/admin/promotion-form.php:301
+msgid "Variant B text"
+msgstr ""
+
+#: views/admin/promotion-form.php:305
+msgid "Variant B button"
+msgstr ""
+
+#: views/admin/promotion-form.php:310
+msgid "Update promotion"
+msgstr ""
+
+#: views/admin/promotion-form.php:310
+msgid "Create promotion"
+msgstr ""
+
+#: views/admin/promotions-list.php:27
+msgid "View deals page"
+msgstr ""
+
+#: views/admin/promotions-list.php:35
+msgid "Search promotions"
+msgstr ""
+
+#: views/admin/promotions-list.php:41
+msgid "Demo promotions"
+msgstr ""
+
+#: views/admin/promotions-list.php:42
+msgid "Creates the five reference promotions. Loading again replaces the previous demo set; your own promotions are not touched."
+msgstr ""
+
+#. translators: %d: category number from the spec (1-3).
+#: views/admin/promotions-list.php:52
+#, php-format
+msgid "Category %d"
+msgstr ""
+
+#: views/admin/promotions-list.php:55
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: views/admin/promotions-list.php:63
+msgid "Load demo"
+msgstr ""
+
+#: views/admin/settings.php:25
+msgid "Maximum item discount, %"
+msgstr ""
+
+#: views/admin/settings.php:28
+msgid "Combined percentage and fixed discounts on one item never exceed this share of its price. Deals and cart discounts are not affected."
+msgstr ""
+
+#: views/admin/settings.php:32
+msgid "Popup delay, seconds"
+msgstr ""

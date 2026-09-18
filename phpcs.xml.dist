@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ruleset name="Promo Engine">
+	<file>.</file>
+
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+	<exclude-pattern>/tests/*</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg name="colors"/>
+	<arg value="sp"/>
+
+	<config name="testVersion" value="8.0-"/>
+	<config name="minimum_wp_version" value="6.4"/>
+
+	<rule ref="WordPress">
+		<!-- Properties are typed; a docblock repeating the type adds nothing. -->
+		<exclude name="Squiz.Commenting.VariableComment.Missing"/>
+		<!-- `$a ?: $b` is used deliberately for "value or fallback". -->
+		<exclude name="Universal.Operators.DisallowShortTernary"/>
+	</rule>
+
+	<rule ref="PHPCompatibilityWP"/>
+
+	<!-- Templates and views are included from inside methods, not the global scope. -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound">
+		<exclude-pattern>/templates/*</exclude-pattern>
+		<exclude-pattern>/views/*</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="promo-engine"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="promo_engine"/>
+				<element value="PromoEngine"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>
